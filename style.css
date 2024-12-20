@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+#upload-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#upload-section input {
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result-section {
+  margin-top: 50px;
+  text-align: center;
+}
