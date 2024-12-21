@@ -18,7 +18,7 @@ function processImage() {
       return fetch("https://api.example.com/analyze", {
         method: "POST",
         headers: {
-          "Authorization": `Bearer ${apiKey}`,
+          "Authorization": `Bearer ${ask-proj-4aDmx52D1DzRb55rDkW2ZoysSojfkul61S2Jh5KhEnIiYtKsSYAzYvMcarni80i2U6YUaRi_vfT3BlbkFJZS7TgMScmK2mxB1B8FBQxCVMsylX2Wu5NFONLmMWeBAT8XErdNyZpP_93_GkdPjd3fGCcgu3UA}`,
         },
         body: formData
       });
